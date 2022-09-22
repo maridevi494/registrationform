@@ -1,0 +1,55 @@
+<html>
+	<head>
+		<title> Form Webpage</title>
+			<style>
+				body{
+					padding:30px 500px 20px 450px;
+					}
+				button{
+					background-color:brown;
+					margin-right:200px;
+					margin-left:200px;
+				}
+			</style>
+	</head>
+	<body>
+		<form>
+			<fieldset>
+				<legend style="text-align:center; font-size:30px"> Registration Form</legend>
+					<label for="Iname">Enter your first name:</label>
+					<input type="text" name="Iname" placeholder="First name"><br><br>
+					
+					<label for="Lname"> Enter your last name:</label>
+					<input type="text" name="Lname" placeholder="Last name"><br><br>
+					
+					<label for="dob"> Date of birth:</label>
+					<input type="date" name="dob" placeholder="Date of birth"><br><br>
+					<label for="app">select time:</label>
+					<input type="time" name="app" placeholder="time"><br><br>
+					
+					<label for="gender"> Enter your gender:</label>
+					<input type="radio" name="gender" value="male">male
+					<input type="radio" name="gender" value="female">female
+					<input type="radio" name="gender" value="others">others<br><br>
+					
+					<label for="address" >Enter Your address:</label>
+					<textarea rows="6" cols="50" name="address" placeholder="enter address"></textarea><br><br>
+					
+					<label for="tel" > Enter your mobile number:</label>
+					<input type="tel" pattern="[0-9]{10}" name="tel"placeholder="enter phone number"><br><br>
+					
+					<label for="Icountry">Enter your country name:</label>
+					<input type="text" name="Icountry" placeholder="country name"><br><br>
+					
+					<label for="nation">Enter your nationality:</label>
+					<input type ="text" name="nation" placeholder="enter nationality"><br><br>
+					
+					<label for="Imail"> Enter your email:</label>
+					<input type="email" name="Imail" placeholder="enter email"><br><br>
+					
+					<label for="pwd" >Enter your password:</label>
+					<input type="password" name="pwd" placeholder= "enter password"><br><br>
+					<button >  Click To Register</button>
+			</fieldset>
+	</body>
+</html>
